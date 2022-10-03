@@ -1,0 +1,31 @@
+.img-card{
+height: 400px;
+object-fit: cover;
+}
+
+button{
+  width: 45%;
+  margin: auto !important;
+}
+
+.icon-save{
+  margin-right: 5px;
+}
+
+.box-delete{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+  .img-card{
+    height: 600px;
+    object-fit: cover;
+    }
+}

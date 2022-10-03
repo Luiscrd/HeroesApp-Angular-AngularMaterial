@@ -1,0 +1,17 @@
+Start JSON Server
+
+------------------------------
+
+npm install -g json-server
+
+------------------------------
+
+json-server --watch db.json
+
+------------------------------
+
+Now if you go to http://localhost:3000/posts/1, you'll get
+
+{ "id": 1, "title": "json-server", "author": "typicode" }
+
+https://www.npmjs.com/package/json-server

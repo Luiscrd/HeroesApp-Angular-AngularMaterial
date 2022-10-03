@@ -1,0 +1,9 @@
+.content_targets{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.target-heroe{
+  margin-top: 3%;
+}

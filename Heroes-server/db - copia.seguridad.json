@@ -1,0 +1,451 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "usuario": "John Doe",
+      "email": "john.due@gmail.com"
+    }
+  ],
+  "heroes": [
+    {
+      "id": "dc-batman",
+      "superhero": "Batman",
+      "publisher": "DC Comics",
+      "alter_ego": "Bruce Wayne",
+      "first_appearance": "Detective Comics #27",
+      "characters": ["Bruce Wayne"],
+      "description": [
+        {
+          "id": 0,
+          "text": "Batman (conocido inicialmente como Bat-Man y en español como el Hombre Murciélago) es un personaje de cómic creado por los estadounidenses Bob Kane y Bill Finger,​ y propiedad de DC Comics. Apareció por primera vez en la historia titulada «El caso del sindicato químico» de la revista Detective Comics N.º 27, lanzada por la editorial National Publications el 30 de marzo de 1939.****La identidad secreta de Batman es Bruce Wayne (Bruno Díaz en algunos países de habla hispana),​ un multimillonario magnate empresarial y filántropo dueño de Empresas Wayne en Gotham City. Después de presenciar el asesinato de sus padres, el Dr. Thomas Wayne y Martha Wayne en un violento y fallido asalto cuando era niño, juró venganza contra los criminales, un juramento moderado por el sentido de la justicia. Bruce Wayne se entrena física e intelectualmente y crea un traje inspirado en los murciélagos para combatir el crimen, con sus gadgets de combate del batcinturón y sus vehículos."
+        },
+        {
+          "id": 1,
+          "text": "La identidad secreta de Batman es Bruce Wayne (Bruno Díaz en algunos países de habla hispana),​ un multimillonario magnate empresarial y filántropo dueño de Empresas Wayne en Gotham City. Después de presenciar el asesinato de sus padres, el Dr. Thomas Wayne y Martha Wayne en un violento y fallido asalto cuando era niño, juró venganza contra los criminales, un juramento moderado por el sentido de la justicia. Bruce Wayne se entrena física e intelectualmente y crea un traje inspirado en los murciélagos para combatir el crimen, con sus gadgets de combate del batcinturón y sus vehículos."
+        },
+        {
+          "id": 2,
+          "text": "A diferencia de los superhéroes, no tiene superpoderes: recurre a su intelecto, así como a aplicaciones científicas y tecnológicas para crear armas y herramientas con las cuales lleva a cabo sus actividades. Vive en la mansión Wayne, en cuyos subterráneos se encuentra la Batcueva, el centro de operaciones de Batman. Recibe la ayuda constante de otros aliados, entre los cuales pueden mencionarse Robin, Batgirl (posteriormente Oráculo), Nightwing, el comisionado de la policía local, James Gordon, y su mayordomo Alfred Pennyworth. Una gran variedad de villanos conforman la galería de Batman, incluido su archienemigo, el Joker."
+        }
+      ]
+    },
+    {
+      "id": "dc-superman",
+      "superhero": "Superman",
+      "publisher": "DC Comics",
+      "alter_ego": "Kal-El",
+      "first_appearance": "Action Comics #1",
+      "characters": ["Kal-El"],
+      "description": [
+        {
+          "id": 0,
+          "text": "Superman (en español: Superhombre) es un superhéroe ficticio que apareció por primera vez en los cómics estadounidenses publicados por DC Comics, ​El personaje fue creado por el escritor estadounidense Jerry Siegel y el artista canadiense Joe Shuster en 1933 cuando ambos se encontraban viviendo en Cleveland, Ohio."
+        },
+        {
+          "id": 1,
+          "text": "Sus creadores lo vendieron a Detective Comics, Inc. en 1938 por 130 dólares5​ y la primera aventura del personaje fue publicada en Action Comics #1 (junio de 1938), para luego aparecer en varios seriales de radio, programas de televisión, películas, tiras periódicas y videojuegos. Con el éxito de sus aventuras, este personaje definió al superhéroe y estableció su primacía dentro del cómic estadounidense.​ Su apariencia del personaje es distintiva y se volvió icónica: un traje azul y rojo, con una capa y un emblema con una letra “S” estilizada en su pecho, el cual se ha convertido en un símbolo del personaje."
+        },
+        {
+          "id": 2,
+          "text": "Superman nació en el planeta Krypton y recibió el nombre de Kal-El al nacer. Cuando era bebé, sus padres, el científico Jor-El, y su esposa Lara Lor-Van, lo enviaron a la Tierra en una pequeña nave espacial momentos antes de que Krypton fuera destruido en un cataclismo natural. Su nave aterrizó en el campo estadounidense, cerca de la ciudad ficticia de Smallville. Fue encontrado y adoptado por los agricultores Jonathan y Martha Kent, quienes lo llamaron Clark Kent. Clark desarrolló varias habilidades sobrehumanas, como una fuerza increíble y una piel impermeable. Sus padres adoptivos le aconsejaron que usara sus habilidades en beneficio de la humanidad y decidió luchar contra el crimen como un justiciero."
+        }
+      ]
+    },
+    {
+      "id": "dc-flash",
+      "superhero": "Flash",
+      "publisher": "DC Comics",
+      "alter_ego": "Jay Garrick",
+      "first_appearance": "Flash Comics #1",
+      "characters": ["Jay Garrick", "Barry Allen", "Wally West", "Bart Allen"],
+      "description": [
+        {
+          "id": 0,
+          "text": "Flash (conocido también como The Flash y traducido en español: Destello) es el nombre de varios superhéroes ficticios que aparecen en los cómics estadounidenses publicados por DC Comics. Creado por el escritor Gardner Fox y el artista Harry Lampert, el 'Flash' original apareció por primera vez en Flash Comics #1 (fecha de portada de enero de 1940 / mes de noviembre de 1939).​ Apodado el 'Corredor Escarlata', todas las encarnaciones del Flash poseen 'súper velocidad', que incluye la capacidad de correr, moverse y pensar extremadamente rápido, también puede atravesar la materia sólida, usar reflejos sobrehumanos y aparentemente violar ciertas leyes de la física, como superar la velocidad de la luz."
+        },
+        {
+          "id": 1,
+          "text": "Hasta ahora, al menos cuatro personajes diferentes, cada uno de los cuales de alguna manera obtuvo el poder de 'la Fuerza de la Velocidad', han asumido el papel del Flash en las historias de DC: el atleta universitario Jay Garrick siendo el primero en portar el título (1940-1951, 1961-2011, 2017-presente ), el científico forense Barry Allen (1956-1985, 2008-presente), el sobrino de Barry Wally West (1986-2011, 2016-presente) y el nieto de Barry Bart Allen (2006-2007). Cada encarnación de Flash ha sido un miembro clave de al menos uno de los principales equipos de DC: Sociedad de la Justicia de América, Liga de la Justicia de América, Los Jóvenes Titanes y Young Justice. Wally West y Bart Allen originalmente fueron conocidos como Kid Flash, posteriormente asumieron el manto de Flash (Bart también era conocido como Impulso)."
+        },
+        {
+          "id": 2,
+          "text": "Se creía que West era el único que sabía dominar la fuerza de la velocidad, pero actualmente Barry Allen y otros personajes que han adquirido “la fuerza de velocidad” han demostrado cierto nivel de poder y control sobre esta."
+        }
+      ]
+    },
+    {
+      "id": "dc-green",
+      "superhero": "Green Lantern",
+      "publisher": "DC Comics",
+      "alter_ego": "Alan Scott",
+      "first_appearance": "All-American Comics #16",
+      "characters": ["Alan Scott", "Hal Jordan", "Guy Gardner", "John Stewart", "Kyle Raynor", "Jade", "Sinestro", "Simon Baz"],
+      "description": [
+        {
+          "id": 0,
+          "text": "Linterna Verde (en inglés: Green Lantern) es el alias de varios superhéroes de la ficción del Universo DC, de la editorial DC Comics, los cuales se caracterizan por portar un anillo de poder y tener la capacidad de crear manifestaciones de luz sólida con dichos anillos."
+        },
+        {
+          "id": 1,
+          "text": "El primer Linterna Verde (Alan Scott) hizo su debut en julio de 1940 en el All-American Comics #16 (portada de Sheldon Moldoff) durante la Edad de Oro del Cómic estadounidense.​ Su creación se la debemos al guionista Bill Finger y al dibujante Martín Nodell."
+        },
+        {
+          "id": 2,
+          "text": "Cada Linterna Verde posee un anillo de poder y una batería (en forma de linterna) que garantiza a su portador la 'posibilidad' de manifestar una gran variedad de poderes. Algo común entre todos son el poder de volar y el hecho de que todos los efectos de poder se manifiesten acompañados de una luz verde. El anillo está considerado dentro del Universo DC como una de las armas más poderosas jamás creadas y como algo muy peligroso en las manos equivocadas. Mientras que el anillo del Linterna Verde de la Edad de Oro (Alan Scott) es impulsado por la magia, los anillos utilizados por los Green Lantern Corps son creaciones tecnológicas de los Guardianes del Universo, los cuales son asignados a aquellos candidatos que son considerados dignos de portarlos. Debido al poder del anillo, Green Lantern es considerado uno de los superhéroes más poderosos del Universo DC. Ya que son capaces de lograr contener Supernovas y Agujeros Negros. Varios de sus enemigos también son considerados como unos de los más trascendentales villanos del Universo DC como lo son Parallax o el Antimonitor mientras que Sinestro es el villano más habitual de Green Lantern."
+        }
+      ]
+    },
+    {
+      "id": "dc-green2",
+      "superhero": "Green Arrow",
+      "publisher": "DC Comics",
+      "alter_ego": "Oliver Queen",
+      "first_appearance": "More Fun Comics #73",
+      "characters": ["Oliver Queen"],
+      "description": [
+        {
+          "id": 0,
+          "text": "Green Arrow (en español: Flecha Verde) es un superhéroe que aparece en los cómics publicados por DC Comics. Creado por Mort Weisinger y diseñado por George Papp, apareció por primera vez en More Fun Comics #73 en noviembre de 1941. Su nombre real es Oliver Jonas Queen, un empresario adinerado y propietario de Industrias Queen que también es una celebridad muy conocida en Star City. A veces se muestra vestido como el personaje de Robin Hood, Green Arrow es un arquero que usa sus habilidades para combatir el crimen en sus ciudades natales de Star City y Seattle, así como junto a sus compañeros superhéroes como miembro de la Liga de la Justicia."
+        },
+        {
+          "id": 1,
+          "text": "Aunque se usa con menos frecuencia en las historias modernas, también implementa una gama de flechas de truco con varias funciones especiales, como pegamento, punta de explosivo, gancho de agarre, granada flash, gas lacrimógeno e incluso flechas de kryptonita para usar en una variedad de situaciones especiales. En el momento de su debut, Green Arrow funcionó de muchas maneras como un análogo de tiro con arco del muy popular personaje de Batman, pero los escritores de DC lo convirtieron en una voz de política de izquierda muy distinta del personaje de Batman. Green Arrow es uno de los pocos personajes famosos de DC que no posee una gran librería de villanos, los más destacados son Conde Vértigo, Merlyn, Rey Reloj, Eddie Fyers, Deathstroke y Ra's al Ghul. Ocupa el puesto número #30 de los mejores héroes de IGN"
+        },
+        {
+          "id": 2,
+          "text": "Green Arrow disfrutó de un éxito moderado en sus primeros años, convirtiéndose en la portada de More Fun, además de tener apariciones ocasionales en otros cómics. A lo largo de sus primeros veinticinco años, sin embargo, el personaje nunca gozó de mayor popularidad. A fines de la década de 1960, el escritor Denny O'Neil, inspirado en el dramático diseño visual del personaje por Neal Adams, eligió que perdiera su fortuna, otorgándole el papel único de un cruzado callejero para la clase trabajadora y los desfavorecidos. En 1970, fue emparejado con un héroe más orientado a la ley y al orden, Green Lantern, en una innovadora serie de cómics con conciencia social."
+        }
+      ]
+    },
+    {
+      "id": "dc-wonder",
+      "superhero": "Wonder Woman",
+      "publisher": "DC Comics",
+      "alter_ego": "Princess Diana",
+      "first_appearance": "All Star Comics #8",
+      "characters": ["Princess Diana"],
+      "description": [
+        {
+          "id": 0,
+          "text": "La Mujer Maravilla (en inglés: Wonder Woman) es una superheroína ficticia creada por William Moulton Marston para la editorial DC Comics. Es una princesa guerrera de las Amazonas, pueblo ficticio basado en el de las amazonas de la mitología griega. En su tierra natal es conocida como la princesa Diana de Temiscira pero fuera de esta utiliza la identidad secreta de Diana Prince. Está dotada de una amplia gama de poderes superhumanos y habilidades de combate de batalla superiores, gracias a sus dones obtenidos de los dioses y su amplio entrenamiento. Ella posee un gran arsenal de armas, incluyendo entre las principales el Lazo de la Verdad, un par de brazaletes mágicos indestructibles, su tiara, que sirve como arma, y en algunos relatos, en la edad de oro, tuvo un avión invisible. Pero más adelante, se le fue mostrando con la capacidad de volar cada vez con mayor frecuencia por lo que el avión invisible fue dejando de utilizarse."
+        },
+        {
+          "id": 1,
+          "text": "El personaje apareció como tal publicado por primera vez en la revista de historietas All Star Comics #8 (de diciembre de 1941)1​ y con su alter-ego en el Sensation Comics #1 (de enero de 1942).2​ El título de historietas de la Mujer Maravilla ha sido publicado por DC Comics casi continuamente a excepción de un breve período donde no tuvo serie en 1986.3​ Su representación como una heroína que lucha por la justicia, el amor, la paz y la igualdad sexual ha llevado a la Mujer Maravilla a convertirse en un icono feminista."
+        },
+        {
+          "id": 2,
+          "text": "Creada durante la Segunda Guerra Mundial, el personaje fue representado inicialmente en su lucha contra las fuerzas militares de ocupación del Eje, así como una gran selección de supervillanos. La Mujer Maravilla ha ganado un gran elenco formidable de enemigos empeñados en la eliminación de la amazona, incluyendo villanos clásicos como Baronesa Paula Von Gunther, Cheetah, Ares, Doctor Poison, y la bruja Circe, y entre los más nuevos como Maxwell Lord, así como también la enemistad y/o rivalidad de muchos dioses y monstruos de la mitología griega. Mujer Maravilla también ha aparecido regularmente en las historietas en los grupos de superhéroes como en la Sociedad de la Justicia de América (desde 1941) y la Liga de la Justicia (desde 1960)."
+        }
+      ]
+    },
+    {
+      "id": "dc-martian",
+      "superhero": "Martian Manhunter",
+      "publisher": "DC Comics",
+      "alter_ego": "J\"onn J\"onzz",
+      "first_appearance": "Detective Comics #225",
+      "characters": ["Martian Manhunter"],
+      "description": [
+        {
+          "id": 0,
+          "text": "El Detective Marciano (J'onn J'onzz) (en inglés: Martian Manhunter) es un superhéroe que aparece en los cómics estadounidenses publicados por DC Comics. Creado por el escritor Joseph Samachson y diseñado por el artista Joe Certa, el personaje apareció por primera vez en la historia 'The Manhunter from Mars' en Detective Comics # 225 (noviembre de 1955). Martian Manhunter es uno de los siete miembros originales de la Liga de la Justicia de América y uno de los seres más poderosos del Universo DC."
+        },
+        {
+          "id": 1,
+          "text": "J'onzz es nativo del planeta Marte, conocido en su lengua natal como Ma'aleca'andra (el nombre procede de una variante de Malacandra, utilizado por los habitantes de Marte en la novela Más allá del planeta silencioso de C. S. Lewis). J'onn posee habilidades que van más allá de las de un hombre común, incluyendo telepatía y la habilidad de cambiar de forma. Su apariencia habitual es la de un humanoide alto, verde y calvo, forma que adopta para parecerse más a los terrícolas, aunque su verdadero aspecto es menos humano y de cabeza alargada. Es muy sensible al fuego; en algunas historias esto es una debilidad física, mientras que en otras es una debilidad psicológica. El personaje ha aparecido en otros productos de DC Comics, como videojuegos, series de televisión, películas animadas y productos como figuras de acción y tarjetas de intercambio. El personaje ocupó el puesto número 43 en la lista de héroes de cómics más grande de IGN."
+        },
+        {
+          "id": 2,
+          "text": "El Detective Marciano ha sido descrito como 'la navaja suiza de los superhéroes'. Posee muchos poderes similares a los de Superman, específicamente fuerza y resistencia superiores, capacidad de vuelo, velocidad súper humana y visión 'marciana' en unos niveles cercanos a los del mismo Superman. Además puede teletransportarse. Otro de los principales poderes del Detective Marciano es el de alterar su forma, lo que usa con distintas finalidades, como adoptar forma humana, alargar sus miembros, aumentar su tamaño considerablemente y adoptar formas monstruosas. Además de esto, el Detective Marciano puede hacerse invisible (en la mayoría de los cómics de la Edad de Plata ninguno de los demás poderes funciona mientras es invisible) y puede alterar su densidad para convertirse en increíblemente duro e incluso en intangible."
+        }
+      ]
+    },
+    {
+      "id": "dc-robin",
+      "superhero": "Robin / Nightwing",
+      "publisher": "DC Comics",
+      "alter_ego": "Dick Grayson",
+      "first_appearance": "Detective Comics #38",
+      "characters": ["Dick Grayson"],
+      "description": [
+        {
+          "id": 0,
+          "text": "Robin es el alias de varios superhéroes ficticios que aparecen en los cómics estadounidenses publicados por DC Comics. El personaje fue creado originalmente por Bob Kane, Bill Finger y Jerry Robinson, para servir como contraparte menor del superhéroe Batman. La primera encarnación del personaje, Dick Grayson, debutó en Detective Comics # 38 (abril de 1940). Concebida como una forma de atraer lectores jóvenes, Robin obtuvo una recepción crítica abrumadoramente positiva, duplicando las ventas de los títulos de Batman."
+        },
+        {
+          "id": 1,
+          "text": "Las primeras aventuras de Robin incluyeron Star Spangled Comics # 65–130 (1947–1952), que fue la primera película en solitario del personaje. Robin hizo apariciones regulares en cómics relacionados con Batman y otras publicaciones de DC Comics desde 1940 hasta principios de la década de 1980 hasta que el personaje dejó de lado la identidad de Robin y se convirtió en el superhéroe independiente Nightwing. El equipo de Batman y Robin se conoce comúnmente como los Caped Crusaders o Dynamic Duo."
+        },
+        {
+          "id": 2,
+          "text": "La segunda encarnación del personaje, Jason Todd, apareció por primera vez en Batman # 357 (1983). Este Robin hizo apariciones regulares en los cómics relacionados con Batman hasta 1988, cuando el personaje fue asesinado por el Joker en la historia Una muerte en la familia (1989). Jason más tarde se encontraría vivo después de un incidente que cambió la realidad, y eventualmente se convertiría en Red Hood. La primera serie limitada de Robin se publicó en 1991 y contó con el entrenamiento de Tim Drake de la tercera encarnación del personaje para ganarse el papel de compañero vigilante de Batman. Tras dos exitosas secuelas, el Robin mensual de la serie en curso comenzó en 1993 y terminó a principios de 2009, lo que también ayudó a su transición de compañero a superhéroe por derecho propio. En las historias de 2004, el personaje establecido de DC Comics, Stephanie Brown, se convirtió en el cuarto Robin durante un breve período antes de que el papel volviera a ser Tim Drake. Damian Wayne sucede a Drake como Robin en el arco de la historia de 2009 'Battle for the Cowl'."
+        }
+      ]
+    },
+    {
+      "id": "dc-blue",
+      "superhero": "Blue Beetle",
+      "publisher": "DC Comics",
+      "alter_ego": "Dan Garret",
+      "first_appearance": "Mystery Men Comics #1",
+      "characters": ["Dan Garret", "Ted Kord", "Jaime Reyes"],
+      "description": [
+        {
+          "id": 0,
+          "text": "Escarabajo Azul (inglés: Blue Beetle) es el nombre de tres superhéroes ficticios que aparecen en varios cómics estadounidenses publicados por una variedad de compañías desde 1939. La más reciente de las compañías en poseer los derechos del Blue Beetle es DC Comics, que compró los derechos del personaje en 1983, utilizando el nombre de tres personajes distintos a lo largo de los años. El Blue Beetle original fue creado por Fox Comics y luego propiedad de Charlton Comics. El primer Beetle fue Dan Garret (más tarde deletreado Dan Garrett), quien inicialmente obtuvo superpoderes de una vitamina especial, que luego se cambió para obtener poderes de un 'escarabajo sagrado'. El Blue Beetle original apareció no solo en su propio cómic, sino también en una serie de radio semanal."
+        },
+        {
+          "id": 1,
+          "text": "El segundo Blue Beetle fue creado por Charlton y luego asumido por DC Comics, el sucesor de Dan Garrett conocido como Ted Kord. Kord 'saltó' al universo de DC Comics durante Crisis on Infinite Earths junto a otros personajes de Charlton Comics. El segundo Blue Beetle luego protagonizó su propio cómic de 24 números. Kord nunca tuvo superpoderes, pero usó la ciencia para crear varios dispositivos que lo ayudaron a combatir el crimen. Se convirtió en miembro de la Liga de la Justicia de América y luego fue asesinado durante el cruce Crisis infinita de DC Comics."
+        },
+        {
+          "id": 2,
+          "text": "El tercer Blue Beetle, creado por DC Comics, es Jaime Reyes, un adolescente que descubrió que el escarabajo Blue Beetle original se transformó en un traje de batalla que le permitió luchar contra el crimen y viajar por el espacio. Con los años, Reyes se convirtió en miembro de los Jóvenes Titanes y protagonizó dos series de cómics de Blue Beetle. En el reinicio de 'New 52' de DC Comics en 2011, Jaime Reyes era el personaje principal de Blue Beetle, y solo ocasionalmente se refería a versiones pasadas. Sin embargo, con la revisión de continuidad posterior 'DC Rebirth', se restauraron las versiones anteriores."
+        }
+      ]
+    },
+    {
+      "id": "dc-black",
+      "superhero": "Black Canary",
+      "publisher": "DC Comics",
+      "alter_ego": "Dinah Drake",
+      "first_appearance": "Flash Comics #86",
+      "characters": ["Dinah Drake", "Dinah Lance"],
+      "description": [
+        {
+          "id": 0,
+          "text": "Canario Negro (en inglés, Black Canary) es una superheroína ficticia que aparece en los cómics estadounidenses publicados por DC Comics. Creado por el equipo de escritores y artistas de Robert Kanigher y Carmine Infantino, el personaje debutó en Flash Comics # 86 (agosto de 1947). Una de los primeros super-heroínas de DC, Canario Negro ha aparecido en muchas de insignia de la compañía Team-Up títulos como Sociedad de la Justicia de América y la Liga de la Justicia de América. Desde finales de la década de 1960, el personaje ha sido emparejado con el superhéroe arquero Flecha Verde, profesional y románticamente."
+        },
+        {
+          "id": 1,
+          "text": "En su debut en la Edad de Oro, Canario Negro fue el alter ego de Dinah Drake y participó en aventuras de lucha contra el crimen con su interés amoroso (y eventual esposo), el detective de Gotham City Larry Lance. Inicialmente, el personaje era un luchador de mano a mano sin superpoderes que a menudo se hacían pasar por delincuentes para infiltrarse en las bandas criminales. Las historias posteriores la describieron como una artista marcial de clase mundial con un superpoder: el 'grito canario', un grito sónico de gran potencia que podría destruir objetos e incapacitar e incluso matar enemigos poderosos como Superman."
+        },
+        {
+          "id": 2,
+          "text": "Cuando DC Comics ajustó su continuidad, Canario Negro se estableció como dos entidades separadas: madre e hija, Dinah Drake-Lance y Dinah Laurel Lance. Las historias desde la Edad de Plata se centraron en el canario negro más joven, atribuyendo sus habilidades sobrehumanas a una mutación genética. Sin embargo, desde el lanzamiento del The New 52, las dos identidades se han fusionado, con Dinah Drake con un grito metahumano."
+        }
+      ]
+    },
+    {
+      "id": "marvel-spider",
+      "superhero": "Spider Man",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Peter Parker",
+      "first_appearance": "Amazing Fantasy #15",
+      "characters": ["Peter Parker"],
+      "description": [
+        {
+          "id": 0,
+          "text": "Spider-Man, traducido en ocasiones como El Hombre Araña,​ es un personaje creado por los estadounidenses Stan Lee y Steve Ditko,​ e introducido en el cómic Amazing Fantasy n.° 15, publicado por Marvel Comics en agosto de 1962.15​ Se trata de un superhéroe que emplea sus habilidades sobrehumanas, reminiscentes de una araña, para combatir a otros supervillanos que persiguen fines siniestros."
+        },
+        {
+          "id": 1,
+          "text": "Su creación se remonta a principios de la década de 1960 como respuesta al creciente interés del público adolescente en los cómics y el éxito de Los 4 Fantásticos.​ Tras su primera aparición en Amazing Fantasy,​ Marvel decidió producir una serie individual titulada The Amazing Spider-Man, cuyo ejemplar inicial salió a la venta en marzo de 1963.​ Desde entonces se han distribuido otros varios cómics relacionados con el personaje, así como otros productos que han derivado en el establecimiento de una franquicia de medios."
+        },
+        {
+          "id": 2,
+          "text": "Si bien posee múltiples versiones alternativas que han propiciado el desarrollo de un multiverso,19​ los orígenes y rasgos principales de Spider-Man han permanecido mayormente invariables con el transcurso del tiempo. Generalmente su identidad secreta es Peter Parker, un joven huérfano neoyorquino que adquiere superpoderes después de ser mordido por una araña radiactiva,15​ y cuya ideología como héroe se ve reflejada primordialmente en la expresión «un gran poder conlleva una gran responsabilidad»."
+        }
+      ]
+    },
+    {
+      "id": "marvel-captain",
+      "superhero": "Captain America",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Steve Rogers",
+      "first_appearance": "Captain America Comics #1",
+      "characters": ["Steve Rogers"],
+      "description": [
+        {
+          "id": 0,
+          "text": "El Capitán América, cuyo nombre real es Steven 'Steve' Grant Rogers, es un superhéroe ficticio que aparece en los cómics estadounidenses publicados por Marvel Comics. Creado por los historietistas Joe Simon y Jack Kirby, el personaje apareció por primera vez en Captain America Comics #1 (marzo de 1941) de Timely Comics, predecesor de Marvel Comics. El Capitán América fue diseñado como un supersoldado patriota que luchaba frecuentemente contra las potencias del Eje en la Segunda Guerra Mundial, y fue el personaje más popular de Timely Comics durante el período de guerra."
+        },
+        {
+          "id": 1,
+          "text": "La popularidad de los superhéroes se desvaneció después de la guerra, y el cómic del Capitán América dejó de editarse en 1950, con un breve resurgimiento en 1953. Desde que Marvel Comics revivió al personaje en 1964, el Capitán América se ha mantenido en publicación. El Capitán América viste un traje que lleva un motivo de la bandera de los Estados Unidos, y utiliza un escudo casi indestructible que lanza como proyectil. El personaje es generalmente representado como el álter ego de Steve Rogers, un joven frágil mejorado a la cima de la perfección humana por un suero experimental S.S.S. (Suero supersoldado) para ayudar a los esfuerzos inminentes del gobierno de Estados Unidos en la Segunda Guerra Mundial."
+        },
+        {
+          "id": 2,
+          "text": "Cerca del final de la guerra, queda atrapado en el hielo y sobrevive en animación suspendida hasta que es descongelado en el presente. A pesar de que el Capitán América a menudo lucha por mantener sus ideales como un hombre fuera de su tiempo con sus realidades modernas, sigue siendo una figura muy respetada en su comunidad, hasta convertirse en el líder de Los Vengadores."
+        }
+      ]
+    },
+    {
+      "id": "marvel-iron",
+      "superhero": "Iron Man",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Tony Stark",
+      "first_appearance": "Tales of Suspense #39",
+      "characters": ["Tony Stark"],
+      "description": [
+        {
+          "id": 0,
+          "text": "Iron Man (conocido en español como el Hombre de Hierro) es un superhéroe que aparece en los cómics estadounidensespublicados por Marvel Comics. El personaje fue co creado por el escritor y editor Stan Lee y el guionista Larry Lieber. Los artistas Don Heck y Jack Kirby fueron los encargados de su diseño. Este superhéroe hizo su primera aparición en Tales of Suspense #39 en Marzo de 1963, sin embargo, recibió su propio título en Iron Man #1, en Mayo de 1968."
+        },
+        {
+          "id": 1,
+          "text": "Anthony Edward Stark, más conocido como Tony Stark, es un personaje ficticio que da vida a este personaje, un multimillonario magnate empresarial y filántropo estadounidense, playboy e ingenioso científico, que sufrió una grave lesión en el pecho durante un secuestro en el Medio Oriente. Cuando sus captores intentan forzarlo a construir un arma de destrucción masiva, pero en cambio, construyó una armadura para salvar su vida y escapar del cautiverio. Más tarde, Stark desarrolla su traje, agregando armas y otros dispositivos tecnológicos que diseñó a través de su compañía, Industrias Stark. Él usa el traje y las versiones sucesivas para proteger al mundo como Iron Man. Aunque al principio ocultó su verdadera identidad, Stark finalmente declaró quién era en un anuncio público."
+        },
+        {
+          "id": 2,
+          "text": "Inicialmente, la creación de Iron Man fue inspirada en temas de la Guerra Fría, particularmente el papel de la tecnología y la industria estadounidenses en la lucha contra el comunismo.3​ Las imaginaciones posteriores de Iron Man han pasado de estos motivos a los asuntos contemporáneos de la época,​ como el terrorismo, la corrupción y la delincuencia en general."
+        }
+      ]
+    },
+    {
+      "id": "marvel-thor",
+      "superhero": "Thor",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Thor Odinson",
+      "first_appearance": "Journey into Myster #83",
+      "characters": ["Thor Odinson"],
+      "description": [
+        {
+          "id": 0,
+          "text": "Thor es un superhéroe ficticio que aparece en los cómics estadounidenses publicados por Marvel Comics. Es el dios del trueno asgardiano basado en la deidad homónima, del pueblo ficticio inspirado en el mundo de Asgard de la mitología nórdica. En su tierra natal es conocido como Thor Odinson pero fuera de esta utiliza la identidad secreta de Donald Blake. Es poseedor del martillo encantado, Mjolnir, que le otorga capacidad de volar y manipular el clima entre sus otros atributos sobrehumanos, además de concentrar su poder."
+        },
+        {
+          "id": 1,
+          "text": "Debutando en la Edad de Plata de los Libros de Cómics, el personaje apareció por primera vez en Journey into Mystery # 85 (agosto de 1962) y fue creado por el dibujante Jack Kirby, el editor Stan Lee y el guionista Larry Lieber. Ha protagonizado varias series en curso y series limitadas, y es miembro fundador del equipo de superhéroes, Los Vengadores, apareciendo en diferentes números de esa serie. El personaje también ha en diversos productos de Marvel, incluidas series de televisión animadas, películas, videojuegos, ropa, juguetes y tarjetas de intercambio."
+        },
+        {
+          "id": 2,
+          "text": "Colocan a Thor el 14° en IGN lista de 'Los 100 héroes del cómic de todos los tiempos en 2011, ​y el primero en su lista de 'Los 50 Mejores Avengers' en 2012."
+        }
+      ]
+    },
+    {
+      "id": "marvel-hulk",
+      "superhero": "Hulk",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Bruce Banner",
+      "first_appearance": "The Incredible Hulk #1",
+      "characters": ["Bruce Banner"],
+      "description": [
+        {
+          "id": 0,
+          "text": "Hulk (llamado La Masa o El Hombre Increíble en muchas de las traducciones al español) es un personaje ficticio, un superhéroe que aparece en los cómics estadounidenses publicados por la editorial Marvel Comics, es considerado el personaje más fuerte de Marvel Comics. El personaje fue creado por los escritores Stan Lee y Jack Kirby siendo su primera aparición en The Incredible Hulk #1 publicado en mayo de 1962."
+        },
+        {
+          "id": 1,
+          "text": "En sus apariciones de cómic, el personaje es a la vez Hulk, un ser humanoide enorme de piel verde, corpulento y musculoso que posee una gran fortaleza física, y su alter ego el Dr. Robert Bruce Banner (o Dr. David Bruce Banner),​ un físico socialmente retraído, débil físicamente y emocionalmente reservado, las dos personalidades existentes como independientes y con resentimiento de la otra."
+        },
+        {
+          "id": 2,
+          "text": "Después de una exposición accidental a los rayos gamma durante la detonación de una bomba experimental, Banner se transforma físicamente en Hulk cuando está sometido a estrés emocional, a su voluntad o en contra de ella, lo que a menudo lleva a destrozos y conflictos que complican la vida civil de Banner. El nivel de fuerza de Hulk se transmite normalmente de forma proporcional a su nivel de ira. Comúnmente retratado como un salvaje furioso, Hulk ha sido representado con otras personalidades basadas en la mente fracturada de Banner, desde una fuerza descerebrada y destructiva hasta un brillante guerrero o genio científico por derecho propio. A pesar del deseo de soledad tanto de Hulk como de Banner, el personaje tiene un gran elenco de apoyo, que incluye al amor de Banner, Betty Ross, su amigo Rick Jones, su prima She-Hulk, sus hijos Hiro-Kala y Skaar, y sus cofundadores del equipo de superhéroes, Los Vengadores. Sin embargo, su poder incontrolable lo ha llevado a entrar en conflicto con sus compañeros héroes y otros."
+        }
+      ]
+    },
+    {
+      "id": "marvel-wolverine",
+      "superhero": "Wolverine",
+      "publisher": "Marvel Comics",
+      "alter_ego": "James Howlett",
+      "first_appearance": "The Incredible Hulk #180",
+      "characters": ["James Howlett"],
+      "description": [
+        {
+          "id": 0,
+          "text": "Wolverine, cuyo nombre de nacimiento es James Howlett (también conocido como James Logan o simplemente Logan)3​ es un superhéroe ficticio que aparece en los cómics publicados por Marvel Comics, principalmente en asociación con los X-Men. Es un mutante que posee sentidos afinados a los animales, capacidades físicas mejoradas, poderosa capacidad de regeneración conocida como un factor de curación, y tres garras retráctiles en cada mano. Wolverine ha sido representado de diversas formas como miembro de los X-Men, Alpha Flight, Fuerza-X y Los Vengadores."
+        },
+        {
+          "id": 1,
+          "text": "Ha adquirido distintos nombres como Lobezno en España y Glotón, Guepardo, Aguja Dinámica o Emilio Garra en Hispanoamérica, donde también utilizan el alias original."
+        },
+        {
+          "id": 2,
+          "text": "Su primera aparición la realizó dentro de las páginas del número 180 del cómic The Incredible Hulk, en octubre de 1974, aunque su presentación formal fue en el número siguiente por descuido del guionista (número 181, noviembre de 1974). Además, hizo frecuentes apariciones como invitado en otros cómics de Marvel. En las décadas de 1980 y 1990, los cómics en los que aparecía el personaje de Wolverine llegaron a convertirse en los más vendidos de la editorial."
+        }
+      ]
+    },
+    {
+      "id": "marvel-daredevil",
+      "superhero": "Daredevil",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Matthew Michael Murdock",
+      "first_appearance": "Daredevil #1",
+      "characters": ["Matthew Michael Murdock"],
+      "description": [
+        {
+          "id": 0,
+          "text": "Daredevil (también llamado Dan Defensor, Diablo Defensor o Diabólico en muchas de las traducciones al español), alter ego de Matthew Michael 'Matt' Murdock, es un superhéroe ficticio que aparece en los cómics estadounidenses publicados por Marvel Comics. Daredevil fue creado por el escritor y editor Stan Lee y el artista Bill Everett, con una cantidad no especificada de aportes de Jack Kirby. El personaje apareció por primera vez en Daredevil #1 (abril de 1964) en la Edad de Plata de los cómics. La influencia del escritor y artista Frank Miller en el título a principios de la década de 1980. Daredevil es comúnmente conocido por apodos como 'El hombre sin miedo' ​y el 'Diablo de Hell's Kitchen'."
+        },
+        {
+          "id": 1,
+          "text": "Los orígenes de Daredevil provienen de un accidente que tuvo en su infancia la cual le dio habilidades especiales. Mientras crecía en el vecindario irlandés-estadounidense de Hell's Kitchen de la clase obrera, históricamente áspero y asolado por el crimen, en la ciudad de Nueva York, Matt Murdock es cegado por una sustancia radioactiva que cae de un camión después salvar a un hombre que estaba por ser atropellado por un auto. Si bien ya no puede ver, la exposición radioactiva aumenta sus sentidos restantes más allá de la capacidad humana normal y le da un 'sentido de radar'."
+        },
+        {
+          "id": 2,
+          "text": "Su padre, un boxeador llamado Jack Murdock, lo apoya a medida que crece, aunque luego unos mafiosos lo matan después de negarse a perder un combate arreglado. Después de ponerse un traje rojo oscuro y amarillo (más tarde solo rojo), Matt busca venganza contra los asesinos de su padre como el superhéroe Daredevil, encontrándose con varios enemigos, como Bullseye y Kingpin. También se convierte en abogado después de haberse graduado de la Escuela de Derecho de Columbia con su mejor amigo y compañero de cuarto, Franklin 'Foggy' Nelson."
+        }
+      ]
+    },
+    {
+      "id": "marvel-hawkeye",
+      "superhero": "Hawkeye",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Clinton Francis Barton",
+      "first_appearance": "Tales of Suspense #57",
+      "characters": ["Clinton Francis Barton"],
+      "description": [
+        {
+          "id": 0,
+          "text": "Hawkeye (Clinton Francis «Clint» Barton), es un superhéroe de ficción que aparece en los cómics estadounidenses publicados por Marvel Comics. Creado por el escritor Stan Lee y el artista Don Heck, el personaje apareció por primera vez como un villano en Tales of Suspense # 57 (septiembre de 1964) y más tarde se unió a Los Vengadores en The Avengers # 16 (mayo de 1965). Él ha sido un miembro prominente del equipo desde entonces. También ocupó el puesto # 44 en la lista de los 100 mejores héroes de cómics de IGN."
+        },
+        {
+          "id": 1,
+          "text": "Ojo de Halcón es interpretado por Jeremy Renner en el Universo cinematográfico de Marvel. Renner primero hizo un cameo no acreditado en Thor (2011) y más tarde jugó un papel más grande en The Avengers (2012), Avengers: Age of Ultron (2015), Capitán América: Civil War (2016) y Avengers: Endgame (2019). Además, Renner expresa versiones alternativas de la línea de tiempo del personaje en la serie animada de Disney+ What If ...? (2021) y retrata al personaje de la serie Hawkeye (2021)."
+        },
+        {
+          "id": 2,
+          "text": "Si bien Hawkeye no posee poderes sobrehumanos (con la excepción del período en el que usa partículas Pym para convertirse en Goliat), se encuentra en la cima del condicionamiento humano. Él es un esgrimista excepcional, acróbata y tirador, habiendo sido entrenado desde la infancia en el circo y por los criminales Trick Shot y Espadachín. Esto incluye una fuerza considerable, como descubrió un supervillano cuando trató de utilizar el arco de 113 kilos de fuerza del superhéroe (1.100 newtons) y descubrió que no podía retirar la cuerda para lanzar una flecha."
+        }
+      ]
+    },
+    {
+      "id": "marvel-cyclops",
+      "superhero": "Cyclops",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Scott Summers",
+      "first_appearance": "X-Men #1",
+      "characters": ["Scott Summers"],
+      "description": [
+        {
+          "id": 0,
+          "text": "Cíclope (Scott Summers) es un personaje ficticio que aparece en los cómics estadounidenses publicados por Marvel Comics y es miembro fundador de los X-Men. Creado por el escritor Stan Lee y el artista Jack Kirby, el personaje apareció por primera vez en el cómic The X-Men de 1963, en la Edad de Plata de los cómics."
+        },
+        {
+          "id": 1,
+          "text": "Cíclope es miembro de una subespecie de humanos conocidos como mutantes, que nacen con habilidades sobrehumanas. Cíclope emite poderosos rayos de energía de sus ojos y solo puede controlar los rayos con la ayuda de gafas especiales que debe usar en todo momento. Por lo general, se le considera el primero de los X-Men,  ​un equipo de héroes mutantes que luchan por la paz y la igualdad entre mutantes y humanos, uno de los principales líderes del equipo."
+        },
+        {
+          "id": 2,
+          "text": "Cíclope se presenta con mayor frecuencia como el héroe arquetípico de la cultura popular estadounidense tradicional, lo opuesto a los antihéroes duros y contrarios a la autoridad que surgieron en la cultura popular estadounidense después de la Guerra de Vietnam (por ejemplo, Wolverine, su compañero de equipo de X-Men)."
+        }
+      ]
+    },
+    {
+      "id": "marvel-silver",
+      "superhero": "Silver Surfer",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Norrin Radd",
+      "first_appearance": "The Fantastic Four #48",
+      "characters": ["Norrin Radd"],
+      "description": [
+        {
+          "id": 0,
+          "text": "Silver Surfer (también conocido en Hispanoamérica como Surfista de Plata, Surfista Plateado o Deslizador de plata, y en España como Estela Plateada) es un personaje ficticio de cómic del Universo Marvel creado por Jack Kirby y Stan Lee. Su primera aparición fue en Los 4 Fantásticos n.° 48 (marzo de 1966)."
+        },
+        {
+          "id": 1,
+          "text": "El personaje no se encontraba en el guion original enviado por Stan Lee a Jack Kirby para que lo dibujara, pero el dibujante pensó que un personaje de tanta importancia como Galactus debía tener un heraldo que le anunciara y sirviera, por lo que ideó el personaje. La idea le gustó mucho a Stan Lee, quien acabó por tener un especial cariño por el personaje, guionizando su primera serie, en la cual haría su primera aparición en el universo Marvel un personaje tan importante como Mefisto, que en su primera aparición secuestraba a Shalla Bal, el gran amor de Silver Surfer."
+        },
+        {
+          "id": 2,
+          "text": "Silver Surfer tiene los poderes cósmicos gracias a que Galactus se los concedió como heraldo. Tiene la capacidad de reunir energía cósmica del ambiente para concentrarla en su cuerpo a voluntad o lanzarla violentamente. Puede absorber una estrella (o cualquier cosa cósmica del ambiente) y lanzarla por sus manos en forma de rayo, o si no quedarse la energía cósmica que absorbió para aumentar sus poderes Silver Surfer puede sobrevivir a casi cualquier tipo de ataque físico."
+        }
+      ]
+    }
+  ]
+}

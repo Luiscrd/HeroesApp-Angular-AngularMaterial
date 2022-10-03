@@ -1,0 +1,27 @@
+.box-delete{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+
+h1{
+  width: 100%;
+}
+
+h2{
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+button{
+  width: 45%;
+}
+
+.icon-save{
+  margin-right: 15px;
+}
+

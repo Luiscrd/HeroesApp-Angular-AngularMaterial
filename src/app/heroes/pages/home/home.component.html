@@ -1,0 +1,48 @@
+<mat-sidenav-container fullscreen>
+  <mat-sidenav #sidenav mode="push">
+    <mat-toolbar color="primary">
+      <span>Menú</span>
+      <button mat-icon-button (click)="sidenav.toggle()" class="button-menu-inter">
+        <mat-icon>menu</mat-icon>
+      </button>
+    </mat-toolbar>
+    <mat-nav-list>
+      <a routerLink="./listado" (click)="sidenav.toggle()" mat-list-item>
+        <mat-icon mat-list-icon>label</mat-icon>
+        <span>Listado Héroes</span>
+      </a>
+      <a routerLink="./agregar" (click)="sidenav.toggle()" mat-list-item>
+        <mat-icon mat-list-icon>add</mat-icon>
+        <span>Añadir Héroe</span>
+      </a>
+      <a routerLink="./buscar" (click)="sidenav.toggle()" mat-list-item>
+        <mat-icon mat-list-icon>search</mat-icon>
+        <span>Buscar Héroe</span>
+      </a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-toolbar class="header">
+    <div class="nav-left">
+      <button mat-icon-button (click)="sidenav.toggle()">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <img src="../../../../assets/img/logolcprograming.png" alt="LcrPrograming" class="logo-lc">
+    </div>
+    <div class="nav-right">
+      <button mat-button>
+        <mat-icon>logout</mat-icon>Logout
+      </button>
+      <button mat-button><img src="../../../../assets/img/github-circle-white-transparent.png" alt="LcrPrograming"
+          class="git-logo">LcrPrograming</button>
+    </div>
+  </mat-toolbar>
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+  <mat-toolbar class="fotter">
+    <img src="../../../../assets/img/loccompany2.png" alt="Grupo Lcr" class="logo-lc-grup">
+    <button mat-button>
+      <img src="../../../../assets/img/in.png" alt="LinkendIn" class="logo-lc-link">
+    </button>
+  </mat-toolbar>
+</mat-sidenav-container>

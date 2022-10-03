@@ -1,0 +1,54 @@
+.header{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-menu-inter{
+  margin-left: 20px;
+}
+
+.container{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.nav-left{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-lc{
+  position: relative;
+  height: 20px;
+  margin-left: 15px;
+}
+
+.git-logo{
+  position: relative;
+  width: 25px;
+  margin-right: 10px;
+}
+
+.fotter{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+.logo-lc-grup{
+  position: relative;
+  height: 20px;
+}
+
+.logo-lc-link{
+  position: relative;
+  height: 20px;
+}
