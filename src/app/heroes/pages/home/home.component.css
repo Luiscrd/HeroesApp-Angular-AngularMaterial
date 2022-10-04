@@ -11,9 +11,16 @@
 
 .container{
   padding: 30px;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 97.2vh; */
+}
+
+.nav-right{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav-left{
@@ -51,4 +58,8 @@
 .logo-lc-link{
   position: relative;
   height: 20px;
+}
+
+.icon-login-logout{
+  margin-right: 10px;
 }

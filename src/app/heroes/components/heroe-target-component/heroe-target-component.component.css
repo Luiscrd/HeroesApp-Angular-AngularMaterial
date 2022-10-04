@@ -3,8 +3,13 @@ height: 400px;
 object-fit: cover;
 }
 
-button{
+button.boton-loged{
   width: 45%;
+  margin: auto !important;
+}
+
+button.boton-no-loged{
+  width: 100%;
   margin: auto !important;
 }
 

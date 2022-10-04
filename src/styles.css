@@ -1,16 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
+html{ min-height: 100%; }
 body {
+  position: relative;
   margin: 0;
   font-family: Roboto,
   "Helvetica Neue", sans-serif;
   position: relative;
-  padding-bottom: 170px;
+  /* padding-bottom: 270px; */
   min-height: 100vh;
-
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
  }
 
 .spacer{
   flex: 1 1 auto;
 }
+
+/* .mat-drawer-content {
+  position: relative;
+  z-index: 1;
+  display: block;
+  height: 100%;
+  overflow: hidden !important;
+} */

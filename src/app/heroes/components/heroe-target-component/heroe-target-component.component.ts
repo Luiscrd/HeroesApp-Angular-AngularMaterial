@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { Heroe, Publisher } from '../../interfaces/heroes.interface';
+import { AuthService } from '../../../auth/services/auth.service';
 
 @Component({
   selector: 'app-heroe-target-component',
@@ -15,6 +16,21 @@ export class HeroeTargetComponentComponent {
     first_appearance: '',
     characters: [],
     description: []
+  }
+
+  get auth(){
+
+    return this.authService.auth;
+
+  }
+
+  constructor(
+    private authService: AuthService,
+
+    ){}
+
+  ngOnInit(): void {
+
   }
 
 

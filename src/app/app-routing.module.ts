@@ -1,33 +1,34 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { AuthRoutingModule } from './auth/auth-routing.module';
 import { ErrorPageComponent } from './shared/error-page/error-page.component';
-import { HeroesRoutingModule } from './heroes/heroes-routing.module';
-
-
+import { AuthGuard } from './auth/guards/auth.guard';
+import { LogingGuard } from './auth/guards/loging.guard';
 
 const routes: Routes = [
   {
     path: 'auth',
-    loadChildren: () => import('./auth/auth.module').then(m => m.AuthModule)
+    loadChildren: () => import('./auth/auth.module').then(m => m.AuthModule),
+    canLoad: [ LogingGuard ],
+    canActivate: [ LogingGuard ]
   },
 
   {
     path: 'heroes',
-    loadChildren: () => import('./heroes/heroes.module').then(m => m.HeroesModule)
+    loadChildren: () => import('./heroes/heroes.module').then(m => m.HeroesModule),
+    canLoad: [ LogingGuard ],
+    canActivate: [ LogingGuard ]
   },
   {
     path: '404',
     component: ErrorPageComponent,
+    canLoad: [ LogingGuard ],
+    canActivate: [ LogingGuard ]
   },
   {
     path: '**',
     redirectTo: '404'
   }
 ]
-
-
-
 @NgModule({
   declarations: [],
   imports: [

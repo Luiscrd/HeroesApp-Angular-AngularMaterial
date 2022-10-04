@@ -10,12 +10,17 @@
     <p title="{{ heroe.characters }}"><strong>Personajes:</strong>{{ heroe.characters | truncateLc:26:true }}</p> -->
   </mat-card-content>
   <mat-card-actions class="box-delete">
-    <div class="box-delete">
-      <button mat-raised-button color="primary" [routerLink]="'/heroes/'+ heroe.id">
+    <div *ngIf="auth" class="box-delete">
+      <button mat-raised-button class="boton-loged" color="primary" [routerLink]="'/heroes/'+ heroe.id">
         <mat-icon class="icon-save">format_list_bulleted</mat-icon>Ver
       </button>
-      <button mat-raised-button color="warn" [routerLink]="'/heroes/editar/'+ heroe.id">
+      <button mat-raised-button class="boton-loged" color="warn" [routerLink]="'/heroes/editar/'+ heroe.id">
         <mat-icon class="icon-save">drive_file_rename_outline</mat-icon>Editar
+      </button>
+    </div>
+    <div *ngIf="!auth" class="box-delete">
+      <button mat-raised-button class="boton-no-loged" color="primary" [routerLink]="'/heroes/'+ heroe.id">
+        <mat-icon class="icon-save">format_list_bulleted</mat-icon>Ver
       </button>
     </div>
   </mat-card-actions>

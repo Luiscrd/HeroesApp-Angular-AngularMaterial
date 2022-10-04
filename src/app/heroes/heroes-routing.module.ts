@@ -5,11 +5,12 @@ import { AgregarComponent } from './pages/agregar/agregar.component';
 import { BuscarComponent } from './pages/buscar/buscar.component';
 import { HeroeComponent } from './pages/heroe/heroe.component';
 import { HomeComponent } from './pages/home/home.component';
+import { AuthGuard } from '../auth/guards/auth.guard';
 
 const routes: Routes = [
   {
     path: '',
-    component:HomeComponent,
+    component: HomeComponent,
     children: [
       {
         path: 'listado',
@@ -17,11 +18,16 @@ const routes: Routes = [
       },
       {
         path: 'agregar',
-        component: AgregarComponent
+        component: AgregarComponent,
+        canLoad: [AuthGuard],
+        canActivate: [AuthGuard]
+
       },
       {
         path: 'editar/:id',
-        component: AgregarComponent
+        component: AgregarComponent,
+        canLoad: [AuthGuard],
+        canActivate: [AuthGuard]
       },
       {
         path: 'buscar',
@@ -42,7 +48,7 @@ const routes: Routes = [
 @NgModule({
   declarations: [],
   imports: [
-    RouterModule.forChild( routes )
+    RouterModule.forChild(routes)
   ],
   exports: [
     RouterModule
